@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/daysleep666/aws-sdk-go/aws"
+	"github.com/daysleep666/aws-sdk-go/internal/apierr"
 )
 
 // Unmarshal unmarshals the REST component of a response in a REST service.

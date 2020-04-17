@@ -2,8 +2,8 @@
 package datapipeline
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/features/shared"
-	"github.com/ks3sdklib/aws-sdk-go/service/datapipeline"
+	"github.com/daysleep666/aws-sdk-go/internal/features/shared"
+	"github.com/daysleep666/aws-sdk-go/service/datapipeline"
 	. "github.com/lsegal/gucumber"
 )
 

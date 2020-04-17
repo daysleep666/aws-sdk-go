@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/jsonrpc"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/xml/xmlutil"
-	"github.com/ks3sdklib/aws-sdk-go/internal/signer/v4"
-	"github.com/ks3sdklib/aws-sdk-go/internal/util"
+	"github.com/daysleep666/aws-sdk-go/aws"
+	"github.com/daysleep666/aws-sdk-go/internal/protocol/jsonrpc"
+	"github.com/daysleep666/aws-sdk-go/internal/protocol/xml/xmlutil"
+	v4 "github.com/daysleep666/aws-sdk-go/internal/signer/v4"
+	"github.com/daysleep666/aws-sdk-go/internal/util"
 	"github.com/stretchr/testify/assert"
 )
 

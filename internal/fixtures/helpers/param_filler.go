@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ks3sdklib/aws-sdk-go/internal/model/api"
-	"github.com/ks3sdklib/aws-sdk-go/internal/util"
-	"github.com/ks3sdklib/aws-sdk-go/internal/util/utilsort"
+	"github.com/daysleep666/aws-sdk-go/internal/model/api"
+	"github.com/daysleep666/aws-sdk-go/internal/util"
+	"github.com/daysleep666/aws-sdk-go/internal/util/utilsort"
 )
 
 // A paramFiller provides string formatting for a shape and its types.

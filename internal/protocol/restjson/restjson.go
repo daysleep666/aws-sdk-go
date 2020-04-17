@@ -10,10 +10,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/jsonrpc"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/rest"
+	"github.com/daysleep666/aws-sdk-go/aws"
+	"github.com/daysleep666/aws-sdk-go/internal/apierr"
+	"github.com/daysleep666/aws-sdk-go/internal/protocol/jsonrpc"
+	"github.com/daysleep666/aws-sdk-go/internal/protocol/rest"
 )
 
 // Build builds a request for the REST JSON protocol.

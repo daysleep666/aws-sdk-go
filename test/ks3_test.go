@@ -8,15 +8,17 @@ import (
 	"strings"
 	"testing"
 	"time"
+
 	//	"io"
 	"fmt"
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
-	"github.com/ks3sdklib/aws-sdk-go/service/s3"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"os"
+
+	"github.com/daysleep666/aws-sdk-go/aws"
+	"github.com/daysleep666/aws-sdk-go/aws/credentials"
+	"github.com/daysleep666/aws-sdk-go/internal/apierr"
+	"github.com/daysleep666/aws-sdk-go/service/s3"
+	"github.com/stretchr/testify/assert"
 )
 
 var bucket = string("yourbucket")

@@ -9,7 +9,8 @@ import (
 	"reflect"
 	"strings"
 	"time"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
+
+	"github.com/daysleep666/aws-sdk-go/aws/awsutil"
 )
 
 // A Request is the service request to be made.

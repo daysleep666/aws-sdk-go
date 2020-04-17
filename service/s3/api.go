@@ -4,11 +4,12 @@
 package s3
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/aws"
 	"io"
 	"net/url"
 	"sync"
 	"time"
+
+	"github.com/daysleep666/aws-sdk-go/aws"
 )
 
 var oprw sync.Mutex

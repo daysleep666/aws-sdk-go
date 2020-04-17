@@ -1,6 +1,6 @@
 package s3
 
-import "github.com/ks3sdklib/aws-sdk-go/aws"
+import "github.com/daysleep666/aws-sdk-go/aws"
 
 func init() {
 	initService = func(s *aws.Service) {
@@ -18,7 +18,7 @@ func init() {
 
 	initRequest = func(r *aws.Request) {
 		switch r.Operation {
-		case opPutBucketCORS, opPutBucketLifecycle, opPutBucketPolicy, opPutBucketTagging, opDeleteObjects:
+		case opPutBucketCORS, opPutBucketLifecycle, opPutBucketPolicy, opPutBucketTagging, opDeleteObjects, opPutObject, opUploadPart:
 			// These S3 operations require Content-MD5 to be set
 			r.Handlers.Build.PushBack(contentMD5)
 		case opGetBucketLocation:

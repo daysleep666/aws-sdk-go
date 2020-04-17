@@ -3,8 +3,8 @@ package aws_test
 import (
 	"testing"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awserr"
+	"github.com/daysleep666/aws-sdk-go/aws"
+	"github.com/daysleep666/aws-sdk-go/aws/awserr"
 	"github.com/stretchr/testify/assert"
 )
 
