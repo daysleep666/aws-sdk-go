@@ -20,7 +20,7 @@ func init() {
 		switch r.Operation {
 		case opPutBucketCORS, opPutBucketLifecycle, opPutBucketPolicy, opPutBucketTagging, opDeleteObjects, opPutObject, opUploadPart:
 			// These S3 operations require Content-MD5 to be set
-			// 这里不强制校验了...因为我们的seeker是假的
+			// 这里不强制...因为我们的seeker是假的
 			// 无法通过seeker将数据都读到内存里
 			// r.Handlers.Build.PushBack(contentMD5)
 		case opGetBucketLocation:
